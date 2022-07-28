@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700;900&display=swap');
+
+body{
+    margin:0;
+    padding:0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.bg-container{
+    background-image: url('https://raw.githubusercontent.com/akshkgd/mern-317/main/hackathon-1%20solution/img/bg4.avif');
+    background-color: black;
+    background-size: cover;
+    height: 400px;
+    width:100%;
+}
+.content{
+    color: white;
+    text-align: center;
+    padding-top: 10%;
+
+}
+.bg-btn{
+    background-color: rgb(227, 93, 44);
+    padding: 16px 38px;
+    border:none;
+    border-radius: 8px;
+    font-size: 19px;
+    cursor: pointer;
+    color: white;
+}
+.bg-btn :hover{
+    transform: scale(1.04);
+}
+
+.title{
+    margin: 0;
+    font-size: 56px;
+
+}
+.desc{
+    font-size: 17px;
+    font-weight: normal;
+}
+
+.food-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 20px 6%;
+
+}
+.card{
+    width: 320px;
+    padding: 8px;
+    margin:8px;
+    border-radius: 16px;
+    box-shadow:  0 4px 6px rgb(228, 228, 228);
+}
+.card-img{
+    width: 100%;
+    border-radius: 16px;
+}
+
+.card:hover{
+    transform: scale(1.04);
+}
+.food-desc{
+    font-size: 14px;
+}
+.card-header{
+    position: relative;
+}
+.ratings{
+    position: absolute;
+    bottom:0;
+    margin: 10px;
+    font-size: 12px;
+    background-color: #fff;
+    padding: 2px 10px;
+    border-radius: 22px;
+}
+
+.best-seller{
+    position: absolute;
+    top:0;
+    left:0;
+    display: inline-block;
+    font-size: 12px;
+    background-color: rgb(242, 228, 255);
+    color: blueviolet;
+    padding: 2px 10px;
+    border-radius: 22px;
+    margin:10px;
+}
+
+.must-try{
+    position: absolute;
+    top:0;
+    left:0;
+    display: inline-block;
+    font-size: 12px;
+    background-color: rgb(235, 255, 235);
+    color: rgb(0, 99, 0);
+    padding: 2px 10px;
+    border-radius: 22px;
+    margin:10px;
+}
+.card h3{
+    margin:0;
+}
+.flex{
+    margin:7px 0;
+    display: flex;
+    justify-content: space-between;
+}
+@media screen and (max-width: 1000px) {
+    .items {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .items {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+.ord-btn{
+    padding: 5px 30px;
+    background-color: red;
+    outline: none;
+    border: none;
+    color: white;
+    cursor: pointer;
+    border-radius: 2px;
+    font-size: 14px;
+    display: contents;
+    margin: 0 auto;
+}
+nav {
+    background-color: rgb(241, 16, 0);
+    display: grid;
+    place-items: center;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul a {
+    display: inline-block;
+    padding: 20px;
+    text-decoration: none;
+    color: aqua;
+    transition: 0.2s ease-in;
+    font-size: 18px;
+}
+
+nav ul a:hover {
+    background-color: royalblue;
+    color: white;
+}

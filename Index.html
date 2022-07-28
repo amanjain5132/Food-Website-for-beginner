@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tomato Food App</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAkFBMVEXiN0T////iNULiMkDhLTzgHjDhKDjgIjPhLDvgGy7hJzfgGi3hJDXoa3PlUlziM0DumZ7+9vfsjJLrg4n41df98fLnXGXjQEztk5j86+z1xcjpdn3xq6/kSFPxr7P75eb2zM752tzpcnnoaHDzuLvqfIP0vcDwo6fkTFflVmD2ycznYmv52dvulpvfABXeABGiG7u3AAAJRUlEQVR4nO2daZObuhKGQRI7NmC8jPd9G09y/v+/O1pYXrAZu+pkMvdO9fMhiSUE6lZvEinbsu0s7Vs/k36a2bZlb2OXffdUvgjmxlvbyuLkuyfyhSRxZqXud8/iS3FTq/9TTdTAfmqMIQiCIAiCIAiCIAiCIAiCIAiCIAiCIAiCIAiCIAiCIAiCIAiCIAiCIAiCIAiCIAiCIAiCIAiCIIg/C//Z30yWuNFu8nNFZMKZnEf2j11E7vn5h23bI+e7Z/I18Gh/sjUf3nfP5Uvg45FdcIq/ezJfgrsoBbTPP/N7LL1hJWEuvnsy/xHGFe1wGVQC2jf+16fzSvDmQjSvY6qlfZEfO95kvO/tryIIsZffagkfpEMm3NjzQle8nke4LxEFvPhbNrngA0x4kbWf7248inE2jCWcCz/0nDKsJ7Gzz/OeUw/mnrsb5OMIDE7m8svbbF3KMT2Mo+KbcZMwjtJKwOy3p6jDDfMdK1/MNpvTYu56Ly4wv53Tt8Egz/OjZD6Xf+T5YPCWLlblLJkb5puseOhs7lRzZZPJctzL08NmautpMK8/K2JEEeeZszduleXlRLnTX43sJtuLflhym802dV82/JBsN2Ex0vcG23rMZu+8tI4QudpE5SKcM2ye7soF8+B56vuXuXOoPh+0iJxvqpaBrwcFcxhVM1ci+m+PuoqsyKI8a3Zs2CvLGM+6BBwF5oJbW+H2ITLK8+rpq/qKW2u46Cqf7vdxTrEaFT+UzzZR5bG6D3oNuT+868kuL4jodD3RnuqlCtIHXbPggYR82VCxNHL/1hilY793P8/6cY/V/aYWXyyzR32T519t7T0cqFgrCaPVw76zdiqcrZ+w5p2GHu83B63UWohB1/OOokPde7lQ/LGAZpKfwnjXA/Vg79zRqc3DAauM8YMeHvitSc3iTx8ou507h1DInMHEwx678u5uklvHSNtOfUvsujo3SnfOtPqc/T60rlj/07bHdx0xHNM8mp2Pvd4AzFJq1Hv0qEw+Kuqy7efbD7/TaFaR1FynCetkDCpfX9sXfBzbLaaOVmY6WvQDzxUylwb7WpKITR49SUrePUvb3j0JNmFb9dV0ZK7wTtCQ8z4qUq6wFdUfZy0blS132jEJlrHp0XGrAAEJJmKXw2pRD1svVoqBYAIF3vs9NNlT2C2dlnC23n4MFZvNFsZtZELgS2hYuiyJpnCBZzGr/qh6Ztd+S6qzNYZPv4zLMAfraVEvdaRqC9DaIXIVwnIhGqwDwXxc62nwxExDxzMEHsx/q8qFGJZw4LZMWto/ry1MkUY82DRa9h6LYG17zYJPlrlJwnjt6qrCQENNyyDigOImOsS9w1Ne3SUzHwRch0y1gKJ0fcMvcGNpOw3vWEXNBCnDf9gIRnZVLCe+5/iy3uvdLiKq1lDnXxBYpY/2MhelUqP2Wb5WgzMM9iPOWzc2P6nAMNZJk8JcuVY6aGSMkzIfSLdZWQU6y7QuPkeVCjZea+5lweLBil11G+rBHr9UgTMMx5m2hIaRLk1kACeRwbSxYtek1a8rVcx+prxkwb4j8uuCIAStlXuwqNZSUUk2ctxrEkZo2BdjHZjtCvWjBM1lf1cmhqHHLDtu9nR5yQU+qYEuzkBrZaZLwDdmxukaEaD/ioQRpoVxEfIgRA+L6j6EywRzcJB6DO9Bi69WAF1VVR/i0p1hdWIDtZYHbXxeX1Mc3GCTzV7wwwhL+l2xLUwgVxRnXqjNkYMXmJCNTmS0jZsFqQSOYT6brteY2HTEgCOMWbGh9KH2Lw5uGhVA9FxAB7cP1UYVbX0V3qlu46G7mwvQicxcPKjKpFvVuWOUTgJHEtQJUy06aq08aMNsWBQwWKdsn58ax6iQX1V2uRegsSJn1/91Jw+EHuMd4KrSrURefjgFxS8W1R6l3Q7tvDxow6cWKRX3IKunJ44h2vSiLhDwYWYPamH6vnFUpIlnwV3yg9Akk0FQjh9Gpe/UC/TRThblQRtKONdtjSqu9yzQ+BiWDmDTuLvbmCMJqK5l2MbdoZaHudCv74TBdeHW9Uod/mqlaLdDO7cKLaAfmsLPhZbsmZEK3BOcfnslDsdUZrIFphTpJLCzMP0YiEz0xaiei6qEyCpFQlWh3Q7t3PiLsAQYmUlKuGtfPSm8G8W1fZrN3t/fN5vh8GM95rgdlQUY89CcOUNTMd6OnmvsGpPFNakWY1pKyKDi1FtZdDBHlq5hlDfnaHFZneB+6MkbRm51pqeYNQ5NeoGDAWkRNlbMZBMMPaZqRhcKWe1zlrHSRiWl/SkArZ4F268yaYURNK6XgY8Crj5/d9N9NqC2nY20ameoi0xGQnGXiDH0mJAAFeU6AA0MI6EWiGP9pn3TudO4NPdG/Ws3ppx9/iNyzL/btlYoK3t8aqLoiUeJGEPPRReykCzePfTK9ZGF4+bRoQ4s9xLKiSTLdmNjIp9J2D3SHigZ8o7OVAUBLMxNskCNFMeN9YTlMrP4/lZ1fjFnl9P2BapabZw1IOcne8PGdq+F3qV0nP+sdKDAoKB3ARh6zB4At7NqsxffHZkcqrmb9HJ/mqqOEhl/HC5Wz7b3yd3pUU1s5vzITs/mvpDMM5Ma4MSiCK6t10iNvYdi9ntb/tMcfPp35886VuKtYSJPK1LefZJozruthN176tx04foUs8O62wRXCL96Nn7zdDKNajUZnTSqFUVm1Onfi5jNnxekrXMWZFMYeOK0zrwPvDg8EeCkJr2HkF3MAZhbW2VxNu3eakebLcNk3L5A4AbMzhbl1khYzSMg+yBeeD+cXA/nt0F+PM53vYLd/HjMB78W1etlFk8Wlamuz5ZXRmfW71WYQJNcxxUXZta5oizBuDM/bdfr4SEXMbeS8dug4FgUcv6yVNT0sHPqZMCcca3BKUzkcxFd826UA/r9qAv6YW40mb+dz4MdDzD7MBhU3K5uKK5jNdU4od6neqGpzBNRvZst+3kc9Hu73jUOwuar5CSOxvl5sUjnVvSnf0uVcd91/b/3/5Mevt7XHcL9qxMhCIIgCIIgCIIgCIIgCIIgCIIgCIIgCIIgCIIgCIIgCIIgCIIgCIIgCIIgCIIgCIIgCIIgCIIgiNfp/+zvyWJ9K/2Zv9VW4qZWFj//cZ3/X5I4s+xt/Ke/r+5/BubGW9uy7Sztf/dUvoh+mtn2v21MhLsnqKS0AAAAAElFTkSuQmCC">
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <a href="#">
+                <li>Home</li>
+            </a>
+            <a href="#">
+                <li>Order</li>
+            </a>
+            <a href="#">
+                <li>Near</li>
+            </a>
+            <a href="#">
+                <li>About</li>
+            </a>
+            <a href="#">
+                <li>Contact Us</li>
+            </a>
+        </ul>
+    </nav>
+
+    <div class="bg-container">
+        <div class="content">
+        
+            <h1 class="title">Not willing to cook today?</h1>
+            <p class="desc">Lorem ipsum dolor, sit amet consectetur adipisicing elit. <br> Assumenda quis obcaecati
+                explicabo molestias quia. Iusto. </p>
+            <button class="bg-btn">Order Now</button>
+        </div>
+    </div>
+
+    <section>
+        
+        <div class="food-container">
+            <div class="card">
+                <div class="card-header">
+                    <img src="https://source.unsplash.com/1600x800/?burger" class="card-img" alt="">
+                    <p class="ratings">4.4 (3285 Votes)</p>
+                    <p class="must-try">Must try</p>
+                </div>
+                <div class="f">
+                    <h3>Veg supeme Burger</h3>
+                    
+                    </div>
+                <p class="food-desc">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Totam, dignissimos!</span>
+                <button class="ord-btn">Add to Cart</button>
+            </div>
+    
+            <div class="card">
+                <div class="card-header">
+                    <img src="https://source.unsplash.com/1600x800/?pizza" class="card-img" alt="">
+                    <p class="ratings">4.6 (328 Votes)</p>
+                    <p class="best-seller">Best Seller</p> 
+                </div>
+                <h3>Veg Supreme Pizza</h3>
+                <p class="food-desc">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Totam, dignissimos!</span>
+            </div>
+    
+            <div class="card">
+                <div class="card-header">
+                    <img src="https://source.unsplash.com/1600x800/?pasta" class="card-img" alt="">
+                    <p class="ratings">4.4 (2851 Votes)</p>
+                </div>
+                <h3>Veg Supreme pasta</h3>
+                <p class="food-desc">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Totam, dignissimos!</span>
+            </div>
+        </div>
+    </section>
+
+
+    <div class="food-container">
+        <div class="card">
+            <div class="card-header">
+                <img src="https://source.unsplash.com/1600x800/?smoothie" class="card-img" alt="">
+                <p class="ratings">4.4 (3285 Votes)</p>
+                <p class="must-try">Must try</p>
+            </div>
+            <h3>Veg Supreme Smoothie</h3>
+            
+            <p class="food-desc">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Totam, dignissimos!</span>
+        </div>
+
+        <div class="card">
+            <div class="card-header">
+                <img src="https://source.unsplash.com/1600x800/?salad" class="card-img" alt="">
+                <p class="ratings">4.6 (328 Votes)</p>
+            </div>
+            <h3>Veg Supreme Salad</h3>
+            <p class="food-desc">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Totam, dignissimos!</span>
+        </div>
+
+        <div class="card">
+            <div class="card-header">
+                <img src="https://source.unsplash.com/1600x800/?juice" class="card-img" alt="">
+                <p class="ratings">4.4 (2851 Votes)</p>
+                <p class="best-seller">Best Seller</p> 
+            </div>
+            <h3>Veg Supreme juice</h3>
+            
+            <p class="food-desc">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Totam, dignissimos!</span>
+        </div>
+    </div>
+</section>
+</body>
